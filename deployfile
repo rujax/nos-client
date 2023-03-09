@@ -1,0 +1,1 @@
+windeployqt nos-client.exe --no-translations --no-angle --no-opengl-sw

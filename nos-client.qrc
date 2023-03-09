@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>nos-client.ico</file>
+        <file>nos-client.qss</file>
+        <file>dir-20.png</file>
+        <file>file-20.png</file>
+        <file>delete-20.png</file>
+        <file>download-20.png</file>
+        <file>new-dir-20.png</file>
+        <file>refresh-20.png</file>
+        <file>upload-20.png</file>
+        <file>open-dir-20.png</file>
+        <file>CHANGES-0.0.X.md</file>
+        <file>dir-o-20.png</file>
+        <file>CHANGES-0.1.X.md</file>
+        <file>next-20.png</file>
+        <file>prev-20.png</file>
+    </qresource>
+</RCC>

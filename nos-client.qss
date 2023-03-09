@@ -1,0 +1,192 @@
+QWidget#container {
+    background-color: #eeeeee;
+}
+
+QWidget#sidebar, QWidget#paths, QWidget#action-buttons {
+    background-color: #222222;
+}
+
+QPushButton#new-bucket-button, QPushButton#delete-bucket-button {
+    color: white;
+    margin: 0;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 1px solid #333333;
+}
+
+QPushButton#new-bucket-button:hover, QPushButton#delete-bucket-button:hover {
+    background-color: #333333;
+}
+
+QPushButton.bucket {
+    height: 30px;
+    background-color: black;
+    border-bottom: 1px solid #333333;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
+
+QPushButton.bucket:hover, QPushButton.bucket.selected {
+    color: #0099ff;
+}
+
+QLabel#path-label {
+    color: white;
+    font-size: 16px;
+}
+
+QPushButton.path-button {
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+QPushButton.path-button:hover, QPushButton.path-button.current {
+    border: 1px solid white;
+}
+
+QPushButton#copy-path-button, QPushButton#refresh-cache-button {
+    color: white;
+    margin: 0;
+    padding: 0 10px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #333333;
+}
+
+QPushButton#copy-path-button:hover, QPushButton#refresh-cache-button:hover {
+    background-color: #444444;
+}
+
+QWidget#action-buttons QPushButton {
+    height: 40px;
+    margin-right: 8px;
+    padding: 0 10px;
+    color: #eeeeee;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+
+QPushButton#upload-file-button, QPushButton#upload-dir-button {
+    background-color: #0078e7;
+}
+
+QPushButton#download-button {
+    background-color: rgb(28, 184, 65);
+}
+
+QPushButton#download-button:disabled {
+    background-color: rgb(28, 184, 65, 95);
+}
+
+QPushButton#delete-button {
+    background-color: rgb(202, 60, 60);
+}
+
+QPushButton#delete-button:disabled {
+    background-color: rgb(202, 60, 60, 95);
+}
+
+QPushButton#new-dir-button {
+    background-color: rgb(66, 184, 221);
+}
+
+QWidget#action-buttons QPushButton#refresh-button {
+    background-color: rgb(246, 246, 246);
+    color: #333333;
+}
+
+QWidget#action-buttons QPushButton#refresh-button:disabled {
+    background-color: rgb(246, 246, 246, 95);
+}
+
+QLabel#object-count-label {
+    font-size: 14px;
+    color: white;
+}
+
+QLabel#task-count-label {
+    font-size: 14px;
+    color: #333333;
+}
+
+QPushButton#log-button {
+    border: none;
+}
+
+QLabel#task-label:hover, QPushButton#log-button:hover {
+    background-color: #333333;
+    color: white;
+}
+
+QHeaderView::section {
+    padding: 1px;
+    border: none;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid #aaaaaa;
+    background-color: #fafafa;
+}
+
+QTableWidget#object-table::item {
+    font-size: 20px;
+}
+
+QTableWidget#object-table::item:selected {
+    background-color: #fcf8e3;
+}
+
+QProgressBar {
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    background-color: #333333;
+}
+
+QProgressBar::chunk {
+    border: none;
+    background-color: #0078e7;
+}
+
+QLabel#cdn-host-tip-label {
+    font-size: 12px;
+    color: rgb(202, 60, 60);
+}
+
+QPushButton#refresh-list-button {
+    background-color: rgb(0, 120, 247);
+    color: #eeeeee;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+
+QPushButton#refresh-list-button:disabled {
+    background-color: rgb(0, 120, 247, 95);
+}
+
+QTableWidget#refresh-table {
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+QPushButton.pagination-button {
+    width: 30px;
+    height: 30px;
+    color: rgb(110, 110, 110);
+    font-weight: bold;
+    border: none;
+    background-color: rgb(244, 246, 249);
+}
+
+QPushButton.pagination-button:hover, QPushButton.pagination-button.current {
+    background-color: rgb(225, 232, 237);
+}
